@@ -1,4 +1,4 @@
-# Applied Data Science @ Columbia
+﻿# Applied Data Science @ Columbia
 ## Spring 2020
 ## Project 1: A "data story" on the songs of our times
 
@@ -9,20 +9,15 @@ This is the first and only *individual* (as opposed to *team*) this semester.
 
 Term: Spring 2020
 
-+ Projec title: Lorem ipsum dolor sit amet
-+ This project is conducted by [your name]
++ Project title: Patriotism and Protest
++ This project is conducted by Michael Petkun
 
-+ Project summary: [a short summary] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
++ Project summary: Like artists in most fields, songwriters often use their platforms to express political views. In this analysis, I evaluate sentiment within song lyrics to answer several related questions:
+-What types of patriotic and political words do songwriters feel positively or negatively about?
+-Do different genres express different political views?
+-Which genres are most likely to get political?
 
-Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
-
-```
-proj/
-├── lib/
-├── data/
-├── doc/
-├── figs/
-└── output/
-```
-
-Please see each subfolder for a README file.
+Main findings:
+-Songwriters tend to speak positively about patriotic terms (America, American, and USA) but negatively about political terms (American political parties and presidents)
+-Country, pop, and jazz music tend to be the most patriotic (speaking most positively about these terms), while electronic and indie music tend to be the most critical (speaking most negatively)
+-Hip hop music is the most political genre, mentioning these topics at a higher rate than other genres

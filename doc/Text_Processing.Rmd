@@ -47,18 +47,11 @@ We clean the text by converting all the letters to the lower case, and removing 
 ```{r text processing in tm}
 # function for removimg leading and trailing whitespace from character strings 
 leadingWhitespace <- content_transformer(function(x) str_trim(x, side = "both"))
-# remove stop words
-data("stop_words")
-word <- c("lot", "today", "months", "month", "wanna", "wouldnt", "wasnt", "ha", "na", "ooh", "da",
-        "gonna", "im", "dont", "aint", "wont", "yeah", "la", "oi", "nigga", "fuck",
-          "hey", "year", "years", "last", "past", "feel")
-stop_words <- c(stop_words$word, word)
 # clean the data and make a corpus
 corpus <- VCorpus(VectorSource(dt_lyrics$lyrics))%>%
   tm_map(content_transformer(tolower))%>%
   tm_map(removePunctuation)%>%
   tm_map(removeWords, character(0))%>%
-  tm_map(removeWords, stop_words)%>%
   tm_map(removeNumbers)%>%
   tm_map(stripWhitespace)%>%
   tm_map(leadingWhitespace)
