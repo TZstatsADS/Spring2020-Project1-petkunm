@@ -12,9 +12,7 @@ Term: Spring 2020
 + Project title: Patriotism and Protest
 + This project is conducted by Michael Petkun
 
-+ Project summary:
-
-Like artists in most fields, songwriters often use their platforms to express political views. In this analysis, I evaluate sentiment within song lyrics to answer several related questions:
++ Project summary: Like artists in most fields, songwriters often use their platforms to express political views. In this analysis, I evaluate sentiment within song lyrics to answer several related questions:
 
 -What types of patriotic and political words do songwriters feel positively or negatively about?
 
@@ -22,7 +20,7 @@ Like artists in most fields, songwriters often use their platforms to express po
 
 -Which genres are most likely to get political?
 
-Main findings:
++ Main findings:
 
 -Songwriters tend to speak positively about patriotic terms (America, American, and USA) but negatively about political terms (American political parties and presidents)
 
