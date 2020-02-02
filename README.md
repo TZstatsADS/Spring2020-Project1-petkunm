@@ -14,7 +14,7 @@ Term: Spring 2020
 
 + Project summary: Like artists in most fields, songwriters often use their platforms to express political views. In this analysis, I evaluate sentiment within song lyrics to answer several related questions:
 
-++ What types of patriotic and political words do songwriters feel positively or negatively about?
+-What types of patriotic and political words do songwriters feel positively or negatively about?
 
 -Do different genres express different political views?
 
